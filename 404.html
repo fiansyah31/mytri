@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mytri</title>
+</head>
+<body>
+    <center>
+        <h1>Silahkan Buka DiLaptop Sayangkuu:)</h1>
+    </center>
+    <script>
+        // Mendeteksi lebar layar
+    function isMobileScreen() {
+    return window.innerWidth <= 768; // Ubah angka 768 sesuai dengan batas yang Anda inginkan
+    }
+
+    // Fungsi untuk menampilkan pesan peringatan
+    function showMobileWarning() {
+        window.location ="index.html";
+    }
+
+    // Cek apakah layar adalah layar mobile
+    if (!isMobileScreen()) {
+    showMobileWarning();
+    } 
+    </script>
+</body>
+</html>

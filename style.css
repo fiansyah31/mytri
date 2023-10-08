@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background-section {
+    background-image: url('/img/background.png');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.content {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+ .content2, .content3, .content4, .content5, .content6, .content7, .content8 , .content9, .content10{
+    display: none;
+}
+
+.doraemon-section1 {
+    width: 450px;
+}
+.doraemon-section2 {
+    width: 350px;
+}
+.doraemon-section3 {
+    width: 450px;
+}
+.doraemon-section4 {
+    margin-top: -40px;
+    margin-bottom: 20px;
+    width: 650px;
+}
+.doraemon-section5 {
+    margin-top: -70px;
+    margin-bottom: 0px;
+    width: 850px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: doraemon-section5;
+}
+.doraemon-section6 {
+    margin-top: -120px;
+    margin-bottom: 50px;
+    width: 480px;
+    height: 400px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: doraemon-section6;
+}
+.nobita {
+    margin-top: -60px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 450px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: nobita;
+}
+.doraemon-section7 {
+    margin-top: 20px;
+    width: 550px;
+}
+.doraemon-section8 {
+    margin-top: 20px;
+    width: 400px;
+}
+.doraemon-section9 {
+    margin-top: 20px;
+    width: 300px;
+}
+#btn-5 {
+    position: relative;
+    z-index: 2;
+    top: -70px;
+}
+h1 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+.content6 h1 {
+   font-size: 20px;
+   margin-top: -40px;
+}
+.content10 h1 {
+    font-size: 120px;
+    margin-bottom: 30px;
+    color: #194897;
+}
+span {
+    color: #194897;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.btn-primary {
+    margin-top: 20px;
+    color: #194897;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 9px;
+    background: transparent;
+    border: 2px solid #194897;
+}
+i {
+    font-size: 90px;
+}
+@keyframes doraemon-section5 {
+    0% {
+      transform: translateY(0%);
+      transform: translateX(0%);
+    }
+    
+    50% {
+        transform: translateY(8%);
+      }
+      100% {
+        transform: translateY(0%);
+      }
+  }
+  @keyframes doraemon-section6 {
+    0% {
+      transform: translateY(0%);
+      transform: translateX(0%);
+    }
+    
+    50% {
+        transform: translateY(8%);
+      }
+      100% {
+        transform: translateY(0%);
+      }
+  }
+  @keyframes nobita {
+    0% {
+      transform: translateY(0%);
+      transform: translateX(0%);
+    }
+    
+    40% {
+        transform: translateY(3%);
+      }
+      100% {
+        transform: translateY(0%);
+      }
+  }
